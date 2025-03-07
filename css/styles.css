@@ -104,6 +104,61 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+/* a partir daqui são as mudanças que fiz no template*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+.navbar {
+  background-color: #fb89cc !important; 
+}
+
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fb89cc !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+  font-size: 1.5rem; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center; 
+  gap: 15px; 
+  color: white !important; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; 
+  font-size: 1.5rem;
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+}
+
+.card-body {
+  margin-bottom: 10px;
+}
+
+.progress {
+  margin-bottom: 30px;
+}
+.btn-group-vertical {
+  margin-left: 150px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+/*fim das mudanças*/ 
+
+
 hr {
   margin: 1rem 0;
   color: inherit;
